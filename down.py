@@ -46,5 +46,4 @@ if __name__ == "__main__":
     unzip(path,zfile)
 
     print ("*********解压缩完成***************")
-    print('ok')
 
