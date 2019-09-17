@@ -34,8 +34,7 @@ def runDoc(path,zfile):
     header.is_linked_to_previous = True
     footer.is_linked_to_previous = True
     document.save(file_path)
-   
-    
+
 if __name__ == "__main__":
     
     print ("********** 递归解压文件小程序 **********")
@@ -47,4 +46,5 @@ if __name__ == "__main__":
     unzip(path,zfile)
 
     print ("*********解压缩完成***************")
+    print('ok')
 
